@@ -1,0 +1,38 @@
+{
+  "options": {
+    "paths": {
+      "root": "",
+      "fonts": "fonts",
+      "styles": "styles",
+      "mbtiles": ""
+    },
+    "serveStaticMaps": true,
+    "formatQuality": {
+      "jpeg": 90,
+      "webp": 90
+    },
+    "maxScaleFactor":9,
+    "maxSize": 8192,
+    "pbfAlias": "pbf"
+  },
+  "styles": {
+    "klokantech-basic": {
+      "style": "klokantech-basic/style.json",
+      "tilejson": {
+        "bounds": [106.9388579,-6.3354311,107.1216772,-6.2284457]
+      }
+    },
+    "blueprint": {
+      "style": "blueprint/style.json",
+      "serve_rendered": true,
+      "tilejson": {
+        "bounds": [106.9388579,-6.3354311,107.1216772,-6.2284457]
+      }
+    }
+  },
+  "data": {
+    "v3": {
+      "mbtiles": "kpatas.mbtiles"
+    }
+  }
+}
