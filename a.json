@@ -16,8 +16,8 @@
     "pbfAlias": "pbf"
   },
   "styles": {
-    "klokantech-basic": {
-      "style": "klokantech-basic/style.json",
+    "rtnf-blue": {
+      "style": "rtnf-blue/style.json",
       "tilejson": {
         "bounds": [106.9388579,-6.3354311,107.1216772,-6.2284457]
       }
